@@ -1,0 +1,212 @@
+:root {
+    --p:#707070;
+    --h2:#1F1F1F;
+}
+
+* {
+    font-family: Poppins;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+.container {
+    margin: 0 auto;
+}
+.btn {
+    width: 179px;
+    height: 57px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+    background-color: black;    
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    text-transform: uppercase;
+
+}
+.btn:hover {
+    color: #fff;
+}
+/* Common CSS */
+
+.navbar {
+    padding-top: 40px;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #707070;
+}
+
+/* navbar ends  */
+
+/* banner starts  */
+.banner {
+    position: relative;
+}
+.aside {
+    position: absolute;
+    bottom: -70px;
+    left: -233px;
+}
+.carousel-inner  .carousel-item .col-md-6  {
+    position: relative;
+}
+.middle {
+    position: absolute;
+    top: 0%;
+    left: -7%;
+    width: 13%;
+}
+.b-text h2 {
+    color: var(--h2);
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 61px;
+}
+.b-text p {
+    color: var(--p);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+}
+.carousel .carousel-indicators button {
+    background-color: #CECECE;
+    width: 16px;
+    height: 12px;
+    border: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.carousel .carousel-indicators .active {
+    width: 45px;
+    height: 12px;
+    background-image:linear-gradient(to bottom,#FF9C35 ,#FFD019) ;
+}
+/* banner ends  */
+
+/* categories starts  */
+.cat-part {
+    padding-top: 102px;
+    padding-bottom: 41px;
+}
+.cat-part h2 {
+    font-size: 30px;
+    line-height: 46px;
+    color: var(--h2);
+    font-weight: 500;
+}
+.cat-part a {
+    color: #FF9D00;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+}
+.cat-part1 .card {
+    box-shadow: 0px 10px 30px -20px #000000;
+    border: 0;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    text-align: center;
+    padding-bottom: 53px;
+}
+.cat-part1 .card img {
+    padding: 10%;
+}
+.cat-part1 .card-footer {
+    border-top: 0;
+    background-color: rgb(255 255 255 / 3%);
+}
+.cat-part1 .card-body h2 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    color: var(--h2);
+}
+.cat-part1 .card-body p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: var(--p);
+}
+.cat-part1 .card-body {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    color: var(--h2);
+}
+/* categories ends  */
+
+/* categories2 starts  */
+#categories2 {
+    padding-bottom: 208px;
+    padding-top: 210px;
+}
+#categories2 .container .row .col-md-12 {
+    text-align: center;
+}
+#categories2 .container .row .col-md-12 h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 53px;
+    position: relative;
+
+}
+#categories2 .container .row .col-md-12 h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10.4px;
+    left: 50%;
+    background-image: linear-gradient(to bottom, #F47C00 , #FF8319);
+    width: 135.53px;
+    height: 9.73px;
+    border-radius: 16.09px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-border-radius: 16.09px;
+    -moz-border-radius: 16.09px;
+    -ms-border-radius: 16.09px;
+    -o-border-radius: 16.09px;
+}
+.cat-part2 {
+    padding-bottom: 96px;
+}
+.cat-part3 .card{
+    box-shadow: 0px 10px 30px -20px #000000;
+    border: 0;
+    border-radius:0px 58px / 58px;
+    -webkit-border-radius:0px 58px / 58px;
+    -moz-border-radius:0px 58px / 58px;
+    -ms-border-radius:0px 58px / 58px;
+    -o-border-radius:0px 58px / 58px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}  
+
+/* categories2 ends  */
+
+#copyright {
+    text-align: center;
+    padding: 10px;
+}
+#copyright span {
+    color: #FF8319;
+    font-size: 18px;
+}
